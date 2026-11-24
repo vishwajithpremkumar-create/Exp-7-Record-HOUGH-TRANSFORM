@@ -37,10 +37,10 @@ import matplotlib.pyplot as plt
 ###  Step 2: Read the Image
 
 ```
-image = cv2.imread("road.png")
+image = cv2.imread("vish.jpeg")
 
 if image is None:
-    raise FileNotFoundError("Could not load 'road.png'. Check the file path.")
+    raise FileNotFoundError("Could not load 'vish.jpeg'. Check the file path.")
 
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB
 ```
